@@ -1,0 +1,6 @@
+pandas
+numpy
+pyod
+matplotlib
+tqdm
+sklearn
