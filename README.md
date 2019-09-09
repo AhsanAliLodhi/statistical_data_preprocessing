@@ -4,9 +4,9 @@ A python package to create a data cleaning and pre-processing pipe line.
 
 ## Where to use
 
-- When you have data in matrix form where each row is a datapoint and each column is a feature
+1. When you have data in matrix form where each row is a datapoint and each column is a feature
 
-- You need to perform data cleaning tasks such as following in one function call:
+2. You need to perform data cleaning tasks such as following in one function call:
 ..* Deal with nans, nulls and None values (i.e. remove or replace nans)
 ..* Deal with infs, -inf (i.e remove infs, or use appropriate scheme to substitute infs)
 ..* Remove columns with just one unique value (Essentialy useless columns)
@@ -22,9 +22,9 @@ A python package to create a data cleaning and pre-processing pipe line.
 ..* One hot encode categorical a variable
 ..* Create a new column to mark outliers against a singe feature 
 
-- Perform any of the above mention tasks in a batch for each column of a dataframe
+3. Perform any of the above mention tasks in a batch for each column of a dataframe
 
-- Create a piple line to automate clean data creation from raw data.
+4. Create a piple line to automate clean data creation from raw data.
 
 
 ## Install requirements
