@@ -26,6 +26,7 @@ A python package to create a data cleaning and pre-processing pipe line.
 
 5. Create a piple line to automate clean data creation from raw data.
 
+6. Perform any of above operations optimally
 
 ## Install requirements
 ```
