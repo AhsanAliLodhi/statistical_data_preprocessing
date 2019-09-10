@@ -116,11 +116,11 @@ def fillinfs(df: pd.DataFrame = None , verbose: bool = False, include: list = []
             col_min = max_min_factor * min(valid_numbers) # get the min of column
             col_max = max_min_factor * max(valid_numbers) # get the max of column
             cols.set_description("Filling infs in "+col+' with '+str(col_min)+', '+str(col_max))
-            df[col].replace([np.inf],col_max)
-            df[col].replace([-np.inf ],col_min)
+            df[col] = df[col].replace([np.inf],col_max)
+            df[col] = df[col].replace([-np.inf ],col_min)
         else:
             cols.set_description("Filling infs in "+col+' with '+str(by))
-            df[col].replace([np.inf, -np.inf ],by)
+            df[col] = df[col].replace([np.inf, -np.inf ],by)
 
     return df
 
